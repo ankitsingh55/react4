@@ -40,7 +40,7 @@ const App=()=>{
   <div> 
   <form onSubmit={onSubmit} >
     <h1 style={{color:'blue'}} >Hello {Fullname.fname} {Fullname.pass}  {Fullname.email}  {Fullname.phone} </h1> <br></br> 
-    <h2>6268</h2>
+    
     <input type='text' placeholder='Enter Your Name' onChange={InputEvent} value={Fullname.fname} name='fname' /> <br></br> <br></br>
     <input type='text' placeholder='Enter Your password' onChange={InputEvent} value={Fullname.pass} name='pass' /> <br></br> <br></br>
     <input type='text' placeholder='Enter Your email' onChange={InputEvent} value={Fullname.email} name='email' /> <br></br> <br></br>
